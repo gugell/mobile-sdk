@@ -6,12 +6,8 @@ let package = Package(
     platforms: [.iOS(.v15)],
     products: [
       .library(
-        name: "bigbasketdotabrownfield",
-        targets: ["bigbasketdotabrownfield", "Clarity", "OpenSSL"],
-      ),
-      .library(
-        name: "hermesvm",
-        targets: ["hermesvm"],
+        name: "MatrixSDK",
+        targets: ["MatrixSDK", "Clarity", "OpenSSL", "hermesvm"],
       ),
       .library(
         name: "Clarity",
@@ -21,27 +17,31 @@ let package = Package(
         name: "OpenSSL",
         targets: ["OpenSSL"],
       ),
+      .library(
+        name: "hermesvm",
+        targets: ["hermesvm"],
+      ),
     ],
     targets: [
       .binaryTarget(
-        name: "bigbasketdotabrownfield",
-        url: "https://sdks.s3.eu-north-1.amazonaws.com/bigbasketdotabrownfield.xcframework.zip",
-        checksum: "a93d01f597e20f85c6f124e9200742538a3f20267008de92423e5cc536a462a6",
-      ),
-      .binaryTarget(
-        name: "hermesvm",
-        url: "https://sdks.s3.eu-north-1.amazonaws.com/hermesvm.xcframework.zip",
-        checksum: "281191680c2687fbfc170348e1266b969ce8e75d2f6882b23e0305f1324fea0f",
+        name: "MatrixSDK",
+        url: "https://sdks.s3.eu-north-1.amazonaws.com/MatrixSDK.xcframework.zip",
+        checksum: "09e89d98641d3820d6a765484821c11b3a38183183c80efbfe6394d7b08b62ac",
       ),
       .binaryTarget(
         name: "Clarity",
         url: "https://sdks.s3.eu-north-1.amazonaws.com/Clarity.xcframework.zip",
-        checksum: "6f618f4a40d5b2b3841b3e1733dab43756488b7c859985cbb3912372225a68f5",
+        checksum: "985ca8a990dd2831023e9b598ea75dd91002b192251c614856e94106c35b47a9",
       ),
       .binaryTarget(
         name: "OpenSSL",
         url: "https://sdks.s3.eu-north-1.amazonaws.com/OpenSSL.xcframework.zip",
-        checksum: "11a6cfb55ac5a3aaf1839df151e8355bb6734e5a5e23a81bbe7504d33caf7818",
+        checksum: "e79333287470e1527fe0beae13e0d862721f23410a4238291db91c1892c68e94",
       ),
-    ],
+      .binaryTarget(
+        name: "hermesvm",
+        url: "https://sdks.s3.eu-north-1.amazonaws.com/hermesvm.xcframework.zip",
+        checksum: "1d0d10c84806e49b2a97857a742d98616502e7633a1041f0a19590081ccb70a6",
+      ),
+    ]
 )

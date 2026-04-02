@@ -1,0 +1,26 @@
+[
+  {
+    "archiveName": "MatrixSDK.xcframework.zip",
+    "checksum": "09e89d98641d3820d6a765484821c11b3a38183183c80efbfe6394d7b08b62ac",
+    "localName": "MatrixSDK",
+    "xcframeworkName": "MatrixSDK"
+  },
+  {
+    "archiveName": "Clarity.xcframework.zip",
+    "checksum": "985ca8a990dd2831023e9b598ea75dd91002b192251c614856e94106c35b47a9",
+    "localName": "Clarity",
+    "xcframeworkName": "Clarity"
+  },
+  {
+    "archiveName": "OpenSSL.xcframework.zip",
+    "checksum": "e79333287470e1527fe0beae13e0d862721f23410a4238291db91c1892c68e94",
+    "localName": "OpenSSL",
+    "xcframeworkName": "OpenSSL"
+  },
+  {
+    "archiveName": "hermesvm.xcframework.zip",
+    "checksum": "1d0d10c84806e49b2a97857a742d98616502e7633a1041f0a19590081ccb70a6",
+    "localName": "hermesvm",
+    "xcframeworkName": "hermesvm"
+  }
+]
