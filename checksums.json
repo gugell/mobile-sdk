@@ -1,25 +1,25 @@
 [
   {
-    "archiveName": "MatrixSDK.xcframework.zip",
-    "checksum": "db7588601d052dce7c9adfce068f4f6806cdf399b674c96240e076671f17cf2f",
-    "localName": "MatrixSDK",
-    "xcframeworkName": "MatrixSDK"
+    "archiveName": "MobileSDK.xcframework.zip",
+    "checksum": "434d0495fb8274e43308d3c39c7c3095e3c5b7df75f8ef0fa841cad9428f1689",
+    "localName": "MobileSDK",
+    "xcframeworkName": "MobileSDK"
   },
   {
     "archiveName": "Clarity.xcframework.zip",
-    "checksum": "01eba8bff4f2930001888e8b4f84d3924be644717f19fedd5678322a1bf8d25f",
+    "checksum": "6de9eed7377ee013c1c2c0151d86cb44fdcd883828ff66cc70a51e16a96e4f6d",
     "localName": "Clarity",
     "xcframeworkName": "Clarity"
   },
   {
     "archiveName": "OpenSSL.xcframework.zip",
-    "checksum": "5dba2fbd44990ce94c1f0aa1fc35d1044c06fe89f337f05a59119a7c7368f64a",
+    "checksum": "cb65077372d701dcd1bcdc7c928b035f59f587be26f8d4db2bb1a6630b4e18d6",
     "localName": "OpenSSL",
     "xcframeworkName": "OpenSSL"
   },
   {
     "archiveName": "hermesvm.xcframework.zip",
-    "checksum": "1f25a6a9cd6cf33f2d1698d933b5b44ced24fa1913cdc4350c69a4f85a520b09",
+    "checksum": "cc48a988dcb47172dcd4406b5f5eadc65c59702505dffa74acbf3b5fabf1cd8a",
     "localName": "hermesvm",
     "xcframeworkName": "hermesvm"
   }
