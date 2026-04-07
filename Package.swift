@@ -30,27 +30,27 @@ let package = Package(
       .binaryTarget(
         name: "MatrixSDK",
         url: "https://sdks.s3.eu-north-1.amazonaws.com/MatrixSDK.xcframework.zip",
-        checksum: "d81e97d92860d93fa35c25d68e42ccf05d2e790f6e1fdd04cd55eb3ea67d6c35",
+        checksum: "ba16257d985ab5fd719583965092d3d7a4c63e2a20c902718f669c49b60af1aa",
       ),
       .binaryTarget(
         name: "matrixbrownfield",
         url: "https://sdks.s3.eu-north-1.amazonaws.com/matrixbrownfield.xcframework.zip",
-        checksum: "730c2b66e1df4c16a2d88978bb53d76810d695e7c6d55aa3700fb84fce62fae2",
+        checksum: "9824767c9612a38af32794add726b859a9bb886af6ccc283a0ce432d7028fc7f",
       ),
       .binaryTarget(
         name: "Clarity",
         url: "https://sdks.s3.eu-north-1.amazonaws.com/Clarity.xcframework.zip",
-        checksum: "9ffaf710949011cb599f5a9bd26711915b55d66e74c82c454a14d40010c182eb",
+        checksum: "548eeeed1f59c4cf0cf81df963dea8b93d72e48742275dfc5c548d27e24db010",
       ),
       .binaryTarget(
         name: "OpenSSL",
         url: "https://sdks.s3.eu-north-1.amazonaws.com/OpenSSL.xcframework.zip",
-        checksum: "90263a4ee00c74a8ebdafd837945077961a915cdc0ca36199a2d5fccb82052cc",
+        checksum: "e8277b6060cca2dd3cee477cf32af27093f17169004560dd3b2fa836cd475361",
       ),
       .binaryTarget(
         name: "hermesvm",
         url: "https://sdks.s3.eu-north-1.amazonaws.com/hermesvm.xcframework.zip",
-        checksum: "1ee5a0febd4f234e501a1fcfafd8b27f60490c1b4bd972466d49635d9bce5759",
+        checksum: "361e62a24bba952346ed299e2bfb6fa078c132f23fa4340e53f0b21bbc1c8354",
       ),
     ]
 )
