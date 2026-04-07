@@ -7,50 +7,34 @@ let package = Package(
     products: [
       .library(
         name: "MatrixSDK",
-        targets: ["MatrixSDK", "matrixbrownfield", "Clarity", "OpenSSL", "hermesvm"],
-      ),
-      .library(
-        name: "matrixbrownfield",
-        targets: ["matrixbrownfield"],
-      ),
-      .library(
-        name: "Clarity",
-        targets: ["Clarity"],
-      ),
-      .library(
-        name: "OpenSSL",
-        targets: ["OpenSSL"],
-      ),
-      .library(
-        name: "hermesvm",
-        targets: ["hermesvm"],
+        targets: ["MatrixSDK"],
       ),
     ],
     targets: [
-      .binaryTarget(
+      .target(
         name: "MatrixSDK",
-        url: "https://sdks.s3.eu-north-1.amazonaws.com/MatrixSDK.xcframework.zip",
-        checksum: "ba16257d985ab5fd719583965092d3d7a4c63e2a20c902718f669c49b60af1aa",
+        dependencies: ["MatrixSDKInternal", "Clarity", "OpenSSL", "hermesvm"],
+        path: "Sources/MatrixSDK",
       ),
       .binaryTarget(
-        name: "matrixbrownfield",
-        url: "https://sdks.s3.eu-north-1.amazonaws.com/matrixbrownfield.xcframework.zip",
-        checksum: "9824767c9612a38af32794add726b859a9bb886af6ccc283a0ce432d7028fc7f",
+        name: "MatrixSDKInternal",
+        url: "https://sdks.s3.eu-north-1.amazonaws.com/MatrixSDKInternal.xcframework.zip",
+        checksum: "172570ef270c32db0e51760475143329fa5831eef1bbccfde88669051c59c9a9",
       ),
       .binaryTarget(
         name: "Clarity",
         url: "https://sdks.s3.eu-north-1.amazonaws.com/Clarity.xcframework.zip",
-        checksum: "548eeeed1f59c4cf0cf81df963dea8b93d72e48742275dfc5c548d27e24db010",
+        checksum: "03a9dfb7b72351efd330c4037173c6e1213bf360932dbcd769073e429604bb6e",
       ),
       .binaryTarget(
         name: "OpenSSL",
         url: "https://sdks.s3.eu-north-1.amazonaws.com/OpenSSL.xcframework.zip",
-        checksum: "e8277b6060cca2dd3cee477cf32af27093f17169004560dd3b2fa836cd475361",
+        checksum: "11906902934d0ad41f9bdb47b1f7a82ce63eaebd586134cbfe9d111109a52481",
       ),
       .binaryTarget(
         name: "hermesvm",
         url: "https://sdks.s3.eu-north-1.amazonaws.com/hermesvm.xcframework.zip",
-        checksum: "361e62a24bba952346ed299e2bfb6fa078c132f23fa4340e53f0b21bbc1c8354",
+        checksum: "761b92726b23f6f732d0001bfee94ddde0f0898ebeb201afe54ecad399515ba9",
       ),
     ]
 )
